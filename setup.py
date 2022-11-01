@@ -92,7 +92,7 @@ setup(
     install_requires=[
         "cbor2>=5.4.6,<6",
         "asttokens>=2.0.5,<3",
-        "pycryptodome>=3.5.1,<4",
+        "pycryptodomex>=3.5.1,<4",
         "packaging>=23.1,<24",
         "lark>=1.0.0,<2",
         "importlib-metadata",
