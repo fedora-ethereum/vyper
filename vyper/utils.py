@@ -184,7 +184,7 @@ decimal.setcontext(DecimalContextOverride(prec=78))
 
 
 try:
-    from Crypto.Hash import keccak  # type: ignore
+    from Cryptodome.Hash import keccak  # type: ignore
 
     keccak256 = lambda x: keccak.new(digest_bits=256, data=x).digest()  # noqa: E731
 except ImportError:
