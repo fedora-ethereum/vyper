@@ -11,7 +11,7 @@ import traceback
 import warnings
 from typing import Generic, Iterable, Iterator, List, Set, TypeVar, Union
 
-from Crypto.Hash import keccak
+from Cryptodome.Hash import keccak
 
 from vyper.exceptions import CompilerPanic, DecimalOverrideException
 
