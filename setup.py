@@ -98,7 +98,7 @@ setup(
         "wheel",
         "immutables",
     ],
-    setup_requires=["setuptools_scm>=7.1.0,<8.0.0"],
+    setup_requires=["setuptools_scm>=7.1.0"],
     extras_require=extras_require,
     entry_points={
         "console_scripts": [
