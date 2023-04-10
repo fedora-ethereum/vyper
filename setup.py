@@ -93,11 +93,11 @@ setup(
         "cbor2>=5.4.6,<6",
         "asttokens>=2.0.5,<3",
         "pycryptodomex>=3.5.1,<4",
-        "packaging>=23.1,<24",
+        "packaging>=23.1",
         "importlib-metadata",
         "wheel",
     ],
-    setup_requires=["pytest-runner", "setuptools_scm>=7.1.0,<8.0.0"],
+    setup_requires=["pytest-runner", "setuptools_scm>=7.1.0"],
     tests_require=extras_require["test"],
     extras_require=extras_require,
     entry_points={
