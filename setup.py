@@ -94,7 +94,7 @@ setup(
     install_requires=[
         "asttokens>=2.0.5,<3",
         "pycryptodomex>=3.5.1,<4",
-        "semantic-version>=2.10,<3",
+        "semantic-version>=2.8,<3",
         "importlib-metadata",
         "wheel",
     ],
