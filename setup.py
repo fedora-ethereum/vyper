@@ -15,7 +15,7 @@ extras_require = {
         "pytest-split>=0.7.0,<1.0",
         "eth_abi>=5.0.0,<6.0.0",
         "py-evm>=0.10.1b1,<0.11",
-        "lark==1.1.9",
+        "lark>=1.1.7",
         "hypothesis[lark]>=6.0,<7.0",
         "eth-stdlib==0.2.7",
         "eth-account==0.12.2",
