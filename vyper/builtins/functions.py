@@ -2142,6 +2142,9 @@ else:
             break
         y = z
         z = (x / z + z) / 2.0
+
+    if y < z:
+        z = y
             """
 
             x_type = DecimalT()
